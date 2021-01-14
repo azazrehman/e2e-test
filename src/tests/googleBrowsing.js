@@ -1,6 +1,6 @@
-const config = require("./../configuration/config");
-const myHelper = require("./../lib/browserApiWrapper");
-const pageObjects = require("./../constants/pageObjects/googlePage");
+const config = require("../configuration/config");
+const myHelper = require("../lib/browserApiWrapper");
+const pageObjects = require("../constants/pageObjects/googlePage");
 
 describe("Google Browsing", async () => {
   let page;

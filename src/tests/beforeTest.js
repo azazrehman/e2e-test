@@ -4,7 +4,7 @@
 const fsExtra = require('fs-extra')
 const path = require('path')
 const fs = require('fs')
-const config = require('./../configuration/config')
+const config = require('../configuration/config')
 const process = require('process'); 
 const deleteFolderRecursive = function (directory) {
 	console.log('Cleaning Old Directories')

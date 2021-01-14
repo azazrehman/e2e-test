@@ -4,7 +4,7 @@
   "description": "automated testing with node",
   "main": "src/ui/main.js",
   "scripts": {
-    "run": "mocha --timeout=0 --recursive 'src/ertugrul/googleBrowsing' --reporter mocha-allure-reporter",
+    "run": "mocha --timeout=0 --recursive 'src/tests/googleBrowsing' --reporter mocha-allure-reporter",
     "report": "allure generate allure-results -o C:/TestAutomation --clean"
   },
   "author": "Azaz ur rehman",
