@@ -1,0 +1,34 @@
+{
+  "name": "e2e-test",
+  "version": "1.0.1",
+  "description": "automated testing with node",
+  "main": "src/ui/main.js",
+  "scripts": {
+    "run": "mocha --timeout=0 --recursive 'src/ertugrul/googleBrowsing' --reporter mocha-allure-reporter",
+    "report": "allure generate allure-results -o C:/TestAutomation --clean"
+  },
+  "author": "Azaz ur rehman",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "chai": "^4.2.0",
+    "delay": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.0",
+    "gif-creation-service": "0.0.2",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.20",
+    "log4js": "^6.3.0",
+    "mkdirp": "^1.0.4",
+    "mocha": "^8.0.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "node-emoji": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "playwright": "^1.1.1",
+    "puppeteer": "^3.1.0",
+    "puppeteer-core": "^1.9.0"
+  },
+  "devDependencies": {
+    "mocha-parallel-tests": "^2.3.0"
+  }
+}
